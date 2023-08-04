@@ -1,3 +1,5 @@
+// Creación y definición de Footer (punto 5 del desafío)
+
 const Footer = () => {
     return (
         <>

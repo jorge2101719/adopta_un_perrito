@@ -1,3 +1,5 @@
+// Creación, definición; uso de props vía destructuring (punto 2 del desafío)
+
 const Header = ({title = 'Título por defecto'}) => {
     return (
         <>

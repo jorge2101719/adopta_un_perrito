@@ -1,9 +1,13 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+
+// Este trabajo se ha creado con Vite (punto 1 del desafío)
+// como no hay elementos a la venta,
+// estimé innecesario usar el operador ternario para agregar una clase dinámicamente
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// importación de elementos Header, Card y Footer (punto 6 del desafío)
 import Header from './components/Header';
 import Card from './components/Card';
 import Footer from './components/Footer';
@@ -14,47 +18,47 @@ function App() {
   return (
     <>
       <body>
+        {/* punto 2 y 6 del desafío */}
+        {/* Se cambia el título por defecto */}
         <Header title='Adopta un perrito' />
 
+        {/* puntos 3 y 6 del desafío: se envían props desde aquí */}
+        {/* se reutiliza el elemento Card */}
         <div className='tarjetas'>
           <Card
             name='General'
-            image='https://placedog.net/100'
-            text='Peludo'
-            bg='primary'
+            image='https://placedog.net/200'
             mainText={'Buena compañía en hogar, el juego y los paseos'}
-            // textButton='Adoptar ahora'
-            // bg={'primary'}
+            text='Amistad'
+            bg='primary'
           />
 
           <Card
             name='Principio'
-            image='https://placedog.net/110'
-            text='Escosés'
+            image='https://placedog.net/214'
+            mainText={'Buena compañía para pasear por el parque los domingos'}
+            text='Lealtad'
             bg='secondary'
-            mainText={'Buena compañía para pasear por el parque'}
-            // textButton='Adoptar después'
           />
 
           <Card
             name='Capitán'
-            image='https://placedog.net/120'
-            text='Pelos cortos'
+            image='https://placedog.net/223'
+            mainText={'Pequeño y juguetón, ideal para hogares: todo un artista'}
+            text='Amabilidad'
             bg='success'
-            mainText={'Pequeño y juguetón, ideal para hogares'}
-            // textButton='Adoptar mañana'
           />
 
           <Card
             name='Alternativa'
-            image='https://placedog.net/130'
-            text='Compadres'
+            image='https://placedog.net/240'
+            mainText={'Tierno y juguetón, el mejor amigo para una buena jornada de paseo'}
+            text='Alegría'
             bg='warning'
-            mainText={'Dos amigos para jugar y pasear'}
-            // textButton='Ahora no'
           />
         </div>
     
+        {/* puntos 2 y 6 del desafío */}
         <Footer />
       </body>
     </>

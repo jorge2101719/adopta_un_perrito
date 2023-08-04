@@ -6,6 +6,7 @@
 // como no hay elementos a la venta,
 // estimé innecesario usar el operador ternario para agregar una clase dinámicamente
 import './App.css';
+// se agregaron dependencias y se importan elementos bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // importación de elementos Header, Card y Footer (punto 6 del desafío)
 import Header from './components/Header';

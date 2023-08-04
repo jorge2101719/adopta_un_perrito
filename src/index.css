@@ -24,7 +24,7 @@ a:hover {
 }
 
 /* estilo para elemento body (punto 7 del desafío) */
-body {
+.container {
   margin: 0;
   display: flex;
   flex-direction: column;

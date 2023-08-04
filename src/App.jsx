@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <body>
+      <div className='container'>
         {/* punto 2 y 6 del desafío */}
         {/* Se cambia el título por defecto */}
         <Header title='Adopta un perrito' />
@@ -60,7 +60,7 @@ function App() {
     
         {/* puntos 2 y 6 del desafío */}
         <Footer />
-      </body>
+      </div>
     </>
   )
 };

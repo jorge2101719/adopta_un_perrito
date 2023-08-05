@@ -3,8 +3,8 @@
 // import viteLogo from '/vite.svg'
 
 // Este trabajo se ha creado con Vite (punto 1 del desafío)
-// como no hay elementos a la venta,
-// estimé innecesario usar el operador ternario para agregar una clase dinámicamente
+// Aunque exprimenté con una clase dináminca,
+// estimé que no era necesario incluirla en este trabajo
 import './App.css';
 // se importa react-bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,6 +32,7 @@ function App() {
             mainText={'Buena compañía en hogar, el juego y los paseos'}
             text='Amistad'
             bg='primary'
+            // stock = '0'
           />
 
           <Card
@@ -40,14 +41,16 @@ function App() {
             mainText={'Buena compañía para pasear por el parque los domingos'}
             text='Lealtad'
             bg='secondary'
+            // stock = '3'
           />
 
           <Card
             name='Capitán'
             image='https://placedog.net/223'
-            mainText={'Pequeño y juguetón, ideal para hogares: todo un artista'}
+            mainText={'Pequeño y juguetón, ideal para hogares: un amigo fiel'}
             text='Amabilidad'
             bg='success'
+            // stock = '2'
           />
 
           <Card
@@ -56,6 +59,7 @@ function App() {
             mainText={'Tierno y juguetón, el mejor amigo para una buena jornada de paseo'}
             text='Alegría'
             bg='warning'
+            // stock = '1'
           />
         </div>
     

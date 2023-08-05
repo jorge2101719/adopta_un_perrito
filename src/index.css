@@ -44,6 +44,11 @@ a:hover {
   gap: 20px;
 }
 
+/* se implementa esta clase en forma dinámica como extra */
+/* .sinStock { */
+  /* text-decoration: line-through; */
+/* } */
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

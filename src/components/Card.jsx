@@ -10,6 +10,9 @@ const MyCard = ({ name, image, mainText, text, bg }) => {
                 <Card.Img variant="top" src={image}></Card.Img>
                 <Card.Body>
                     <Card.Title> {name} </Card.Title>
+                    {/* si bien no se específica en el desafío, se agrega un elemento */}
+                    {/* con inclusión de clase dinámica en forma optativa */}
+                    {/* <Card.Subtitle className={stock < 1 ? 'sinStock' : null}> Cantidad: <span>{stock}</span> </Card.Subtitle> */}
                     <Card.Text>{mainText}</Card.Text>
                 </Card.Body>
                 {/* uso del Tags con props desde App.jsx (punto 4 del desafío) */}

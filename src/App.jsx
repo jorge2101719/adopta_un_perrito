@@ -32,7 +32,7 @@ function App() {
             mainText={'Buena compañía en hogar, el juego y los paseos'}
             text='Amistad'
             bg='primary'
-            // stock = '0'
+            stock = '0'
           />
 
           <Card
@@ -41,7 +41,7 @@ function App() {
             mainText={'Buena compañía para pasear por el parque los domingos'}
             text='Lealtad'
             bg='secondary'
-            // stock = '3'
+            stock = '3'
           />
 
           <Card
@@ -50,7 +50,7 @@ function App() {
             mainText={'Pequeño y juguetón, ideal para hogares: un amigo fiel'}
             text='Amabilidad'
             bg='success'
-            // stock = '2'
+            stock = '2'
           />
 
           <Card
@@ -59,7 +59,7 @@ function App() {
             mainText={'Tierno y juguetón, el mejor amigo para una buena jornada de paseo'}
             text='Alegría'
             bg='warning'
-            // stock = '1'
+            stock = '1'
           />
         </div>
     

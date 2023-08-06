@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 // importación de Tags (punto 4 del desafío)
 import Tags from "./Tags";
 
-const MyCard = ({ name, image, mainText, text, bg }) => {
+const MyCard = ({ name, image, mainText, text, bg, stock }) => {
     return (
         <>
             <Card style={{ width: "18rem" }}>
@@ -12,7 +12,7 @@ const MyCard = ({ name, image, mainText, text, bg }) => {
                     <Card.Title> {name} </Card.Title>
                     {/* si bien no se específica en el desafío, se agrega un elemento */}
                     {/* con inclusión de clase dinámica en forma optativa */}
-                    {/* <Card.Subtitle className={stock < 1 ? 'sinStock' : null}> Cantidad: <span>{stock}</span> </Card.Subtitle> */}
+                    <Card.Subtitle className={stock < 1 ? 'sinStock' : null}> Cantidad: <span>{stock}</span> </Card.Subtitle>
                     <Card.Text>{mainText}</Card.Text>
                 </Card.Body>
                 {/* uso del Tags con props desde App.jsx (punto 4 del desafío) */}
